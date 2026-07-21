@@ -112,3 +112,81 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 [15:58:59.495] [INFO] [RECORDER] 录像归档: record\other\other_20260721155819_0.avi
 [15:58:59.496] [INFO] [RECORDER] 录像停止: record\other\other_20260721155819_0.avi
 [15:59:01.699] [INFO] [VOICE] 语音播报: 录像已停止
+[16:06:02.085] [INFO] [MAIN] 正在初始化系统...
+[16:06:02.089] [INFO] [VOICE] 语音播报线程已启动
+[16:06:02.089] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[16:06:02.089] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[16:06:02.092] [INFO] [AI] AI 分析未启用
+[16:06:02.093] [INFO] [MAIN] 系统初始化完成
+[16:06:02.095] [INFO] [MAIN] 正在关闭系统...
+[16:06:02.095] [INFO] [AI] AI 分析已停止
+[16:06:02.899] [INFO] [MAIN] 摄像头状态变化: connected
+[16:06:02.899] [INFO] [MAIN] 摄像头已重连
+[16:06:02.900] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM
+[16:06:02.952] [INFO] [VIDEO] MJPEG 拉流线程已停止
+[16:06:05.599] [INFO] [VOICE] 语音播报: 摄像头已重新连接
+[16:06:05.600] [INFO] [VOICE] 语音播报线程已停止
+[16:06:05.602] [INFO] [MAIN] 系统已关闭
+[16:07:56.295] [INFO] [MAIN] 正在初始化系统...
+[16:07:56.298] [INFO] [VOICE] 语音播报线程已启动
+[16:07:56.298] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[16:07:56.298] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[16:07:56.299] [INFO] [AI] AI 分析未启用
+[16:07:56.299] [INFO] [MAIN] 系统初始化完成
+[16:07:56.301] [INFO] [MAIN] 正在关闭系统...
+[16:07:56.302] [INFO] [AI] AI 分析已停止
+[16:07:57.079] [INFO] [MAIN] 摄像头状态变化: connected
+[16:07:57.079] [INFO] [MAIN] 摄像头已重连
+[16:07:57.080] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM
+[16:07:57.149] [INFO] [VIDEO] MJPEG 拉流线程已停止
+[16:07:59.781] [INFO] [VOICE] 语音播报: 摄像头已重新连接
+[16:07:59.781] [INFO] [VOICE] 语音播报线程已停止
+[16:07:59.782] [INFO] [MAIN] 系统已关闭
+[16:09:17.433] [INFO] [MAIN] 正在初始化系统...
+[16:09:17.437] [INFO] [VOICE] 语音播报线程已启动
+[16:09:17.438] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[16:09:17.438] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[16:09:17.439] [INFO] [AI] AI 分析未启用
+[16:09:17.439] [INFO] [MAIN] 系统初始化完成
+[16:09:17.441] [INFO] [MAIN] 正在关闭系统...
+[16:09:17.441] [INFO] [AI] AI 分析已停止
+[16:09:18.227] [INFO] [MAIN] 摄像头状态变化: connected
+[16:09:18.227] [INFO] [MAIN] 摄像头已重连
+[16:09:18.228] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM
+[16:09:18.274] [INFO] [VIDEO] MJPEG 拉流线程已停止
+[16:09:20.928] [INFO] [VOICE] 语音播报: 摄像头已重新连接
+[16:09:20.928] [INFO] [VOICE] 语音播报线程已停止
+[16:09:20.931] [INFO] [MAIN] 系统已关闭
+[16:13:19.782] [INFO] [MAIN] 正在初始化系统...
+[16:13:19.794] [INFO] [VOICE] 语音播报线程已启动
+[16:13:19.794] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[16:13:19.794] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[16:13:19.795] [INFO] [AI] AI 分析未启用
+[16:13:19.796] [INFO] [MAIN] 系统初始化完成
+[16:13:19.869] [INFO] [MAIN] 摄像头状态变化: connected
+[16:13:19.869] [INFO] [MAIN] 摄像头已重连
+[16:13:19.869] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM
+[16:13:22.853] [INFO] [VOICE] 语音播报: 摄像头已重新连接
+[16:14:20.547] [INFO] [RECORDER] 录像开始: record\_temp\other_20260721161420_0.avi
+[16:14:22.601] [INFO] [VOICE] 语音播报: 录像已开始
+[16:14:40.922] [INFO] [RECORDER] 录像归档: record\other\other_20260721161420_0.avi
+[16:14:40.922] [INFO] [RECORDER] 录像停止: record\other\other_20260721161420_0.avi
+[16:14:42.975] [INFO] [VOICE] 语音播报: 录像已停止
+[16:16:23.560] [INFO] [MAIN] 正在初始化系统...
+[16:16:23.564] [INFO] [VOICE] 语音播报线程已启动
+[16:16:23.564] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[16:16:23.564] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[16:16:23.565] [INFO] [AI] AI 分析未启用
+[16:16:23.565] [INFO] [MAIN] 系统初始化完成
+[16:16:24.487] [INFO] [MAIN] 摄像头状态变化: connected
+[16:16:24.487] [INFO] [MAIN] 摄像头已重连
+[16:16:24.488] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM
+[16:16:27.202] [INFO] [VOICE] 语音播报: 摄像头已重新连接
+[16:20:10.179] [INFO] [MAIN] 正在初始化系统...
+[16:20:10.183] [INFO] [VOICE] 语音播报线程已启动
+[16:20:10.184] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[16:20:10.184] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[16:20:10.184] [INFO] [AI] AI 分析未启用
+[16:20:10.185] [INFO] [MAIN] 系统初始化完成
+[16:20:10.922] [INFO] [MAIN] 摄像头状态变化: connected
+[16:20:10.922] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM

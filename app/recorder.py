@@ -117,12 +117,14 @@ class Recorder:
         return final_path
 
     def bind_waybill(self, platform: str, waybill: str):
-        """绑定运单号和平台"""
+        """绑定运单号和平台，正在录像时立即切换分段以更新文件名"""
         if platform not in PLATFORMS:
             platform = "other"
         self._current_platform = platform
         self._current_waybill = waybill
         logger.info(f"运单绑定: 平台={platform}, 运单号={waybill}")
+        if self._recording and self._writer:
+            self._rotate_segment()
 
     def write_frame(self, jpeg_data: bytes):
         """写入一帧到当前录像（从 JPEG bytes 解码为 BGR 后写入）"""

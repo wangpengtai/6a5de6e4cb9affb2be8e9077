@@ -193,8 +193,31 @@ async def get_config():
 @router.put("/config")
 async def update_config(data: dict):
     """更新配置"""
+    global mjpeg_proxy
     cm = ConfigManager()
+    
+    # 先记录旧的摄像头配置
+    old_cam = cm.config.camera
+    
+    # 更新配置
     cm.update(data)
+    
+    # 获取新的摄像头配置
+    new_cam = cm.config.camera
+    
+    # 如果摄像头配置变化，重启摄像头
+    if mjpeg_proxy and (
+        old_cam.url != new_cam.url or
+        old_cam.reconnect_interval_ms != new_cam.reconnect_interval_ms or
+        old_cam.network_timeout_ms != new_cam.network_timeout_ms
+    ):
+        logger.info(f"摄像头配置已变更，重启连接")
+        mjpeg_proxy.reload_url(
+            url=new_cam.url,
+            reconnect_interval_ms=new_cam.reconnect_interval_ms,
+            network_timeout_ms=new_cam.network_timeout_ms,
+        )
+    
     # 重新加载语音配置
     if voice_speaker:
         voice_speaker.reload_config()

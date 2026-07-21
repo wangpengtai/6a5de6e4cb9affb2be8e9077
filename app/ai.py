@@ -91,7 +91,7 @@ class AiAnalyzer:
 
             payload = {
                 "model": self._config.model,
-                "prompt": "请描述这张图片中的内容，重点关注包装、商品和物流相关的信息。",
+                "prompt": "请识别这张图片中的快递面单信息，提取以下内容：\n1. 运单号（快递单号）\n2. 快递公司名称\n3. 平台标识（如抖音、淘宝、京东等）\n4. 收件人信息\n5. 寄件人信息\n6. 商品信息\n\n请以结构化格式输出，例如：\n运单号：xxx\n快递公司：xxx\n平台：xxx",
                 "images": [img_b64],
                 "stream": False,
             }

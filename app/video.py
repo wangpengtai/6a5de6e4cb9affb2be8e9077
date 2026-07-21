@@ -46,6 +46,7 @@ class MjpegProxy:
         # 控制标志
         self._running = False
         self._connected = False
+        self._was_connected = False  # 是否曾经连接成功过（用于区分首次连接 vs 重连）
         self._thread: Optional[threading.Thread] = None
 
     @property
@@ -68,11 +69,13 @@ class MjpegProxy:
                     self._on_disconnect()
                 except Exception:
                     pass
-            if value and not old and self._on_reconnect:
+            if value and not old and self._was_connected and self._on_reconnect:
                 try:
                     self._on_reconnect()
                 except Exception:
                     pass
+            if value and not old:
+                self._was_connected = True
 
     def start(self):
         """启动视频流拉取"""
@@ -91,6 +94,17 @@ class MjpegProxy:
             self._thread.join(timeout=5)
         self._thread = None
         logger.info("MJPEG 拉流线程已停止")
+
+    def reload_url(self, url: str, reconnect_interval_ms: int = None, network_timeout_ms: int = None):
+        """重新加载 URL 并重启连接"""
+        if self._running:
+            self.stop()
+        self._url = url
+        if reconnect_interval_ms is not None:
+            self._reconnect_interval = reconnect_interval_ms / 1000.0
+        if network_timeout_ms is not None:
+            self._network_timeout = network_timeout_ms / 1000.0
+        self.start()
 
     def get_latest_frame(self) -> Optional[bytes]:
         """获取最新一帧 JPEG 数据"""

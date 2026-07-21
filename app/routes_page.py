@@ -582,7 +582,13 @@ def _render_settings_page() -> str:
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
             document.getElementById('tab-' + name).classList.add('active');
-            event.target.classList.add('active');
+            const btns = document.querySelectorAll('.tab-btn');
+            for (let btn of btns) {
+                if (btn.textContent.includes({camera:'摄像头',storage:'存储',voice:'语音',ai:'AI'}[name])) {
+                    btn.classList.add('active');
+                    break;
+                }
+            }
         }
 
         async function loadConfig() {
