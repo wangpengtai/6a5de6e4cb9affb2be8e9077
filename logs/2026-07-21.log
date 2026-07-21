@@ -1,0 +1,114 @@
+[15:54:21.379] [INFO] [MAIN] 正在初始化系统...
+[15:54:21.388] [INFO] [VOICE] 语音播报线程已启动
+[15:54:21.389] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:54:21.389] [INFO] [VIDEO] MJPEG 拉流线程已启动
+[15:54:21.390] [INFO] [AI] AI 分析未启用
+[15:54:21.390] [INFO] [MAIN] 系统初始化完成
+[15:54:26.424] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:54:26.425] [INFO] [VIDEO] 3.0秒后重连...
+[15:54:29.438] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:54:34.463] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:54:34.464] [INFO] [VIDEO] 3.0秒后重连...
+[15:54:37.477] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:54:42.501] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:54:42.502] [INFO] [VIDEO] 3.0秒后重连...
+[15:54:45.514] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:54:50.547] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:54:50.548] [INFO] [VIDEO] 3.0秒后重连...
+[15:54:53.562] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:54:58.584] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:54:58.586] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:01.600] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:06.623] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:55:06.625] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:09.625] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:14.649] [ERROR] [VIDEO] 拉流异常: timed out
+[15:55:14.651] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:17.665] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:22.692] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:55:22.693] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:25.706] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:30.747] [ERROR] [VIDEO] 拉流异常: timed out
+[15:55:30.750] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:33.765] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:38.811] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:55:38.813] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:41.818] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:46.862] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:55:46.864] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:49.878] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:55:54.923] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:55:54.925] [INFO] [VIDEO] 3.0秒后重连...
+[15:55:57.925] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:02.967] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:02.969] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:05.981] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:11.028] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:11.029] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:14.042] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:19.088] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:19.089] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:22.102] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:27.168] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:27.170] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:30.171] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:35.217] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:35.219] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:38.229] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:43.274] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:43.275] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:46.282] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:51.332] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:51.334] [INFO] [VIDEO] 3.0秒后重连...
+[15:56:54.343] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:56:59.387] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:56:59.388] [INFO] [VIDEO] 3.0秒后重连...
+[15:57:02.389] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:57:07.433] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:57:07.435] [INFO] [VIDEO] 3.0秒后重连...
+[15:57:10.446] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:57:15.487] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:57:15.489] [INFO] [VIDEO] 3.0秒后重连...
+[15:57:18.493] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:57:23.538] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:57:23.540] [INFO] [VIDEO] 3.0秒后重连...
+[15:57:26.542] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:57:31.585] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:57:31.587] [INFO] [VIDEO] 3.0秒后重连...
+[15:57:34.590] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:57:39.613] [ERROR] [VIDEO] 拉流异常: Server error '502 Bad Gateway' for url 'http://192.168.1.49:8089/videofeed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[15:57:39.615] [INFO] [VIDEO] 3.0秒后重连...
+[15:57:42.630] [INFO] [VIDEO] 正在连接: http://192.168.1.49:8089/videofeed
+[15:57:47.500] [INFO] [MAIN] 摄像头状态变化: connected
+[15:57:47.500] [INFO] [MAIN] 摄像头已重连
+[15:57:47.500] [INFO] [VIDEO] 连接成功, Content-Type: multipart/x-mixed-replace;boundary=--Ba4oTvQMY8ew04N8dcnM
+[15:57:51.645] [INFO] [VOICE] 语音播报: 摄像头已重新连接
+[15:58:19.416] [INFO] [RECORDER] 录像开始: record\_temp\other_20260721155819_0.avi
+[15:58:21.875] [INFO] [VOICE] 语音播报: 录像已开始
+[15:58:59.495] [ERROR] [RECORDER] 写帧失败: 'NoneType' object has no attribute 'write'
+[15:58:59.495] [INFO] [RECORDER] 录像归档: record\other\other_20260721155819_0.avi
+[15:58:59.496] [INFO] [RECORDER] 录像停止: record\other\other_20260721155819_0.avi
+[15:59:01.699] [INFO] [VOICE] 语音播报: 录像已停止
