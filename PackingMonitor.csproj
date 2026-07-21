@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>PackingMonitor</RootNamespace>
+    <AssemblyName>PackingMonitor</AssemblyName>
+    <ApplicationIcon></ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Company>PackingMonitor</Company>
+    <Product>电商打包监控</Product>
+    <Description>局域网 IP Webcam 实时监控 + 自动分段录像 + Ollama AI 预留</Description>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>embedded</DebugType>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <TieredCompilation>true</TieredCompilation>
+  </PropertyGroup>
+
+</Project>

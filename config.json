@@ -1,0 +1,25 @@
+{
+  "camera": {
+    "url": "http://192.168.1.49:8089",
+    "reconnectIntervalMs": 1000,
+    "networkTimeoutMs": 3000,
+    "userAgent": "PackingMonitor/1.0"
+  },
+  "record": {
+    "autoStart": false,
+    "segmentSeconds": 600,
+    "fps": 15
+  },
+  "storage": {
+    "recordDir": "",
+    "screenshotDir": "",
+    "minFreeSpaceMB": 1024
+  },
+  "ai": {
+    "enabled": false,
+    "ollamaUrl": "http://127.0.0.1:11434/api/generate",
+    "model": "llama3.2-vision",
+    "intervalSeconds": 10,
+    "timeoutSeconds": 30
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "AZGMPFtg3hE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a5de6e4cb9affb2be8e9077\\PackingMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.29\\microsoft.net.illink.tasks.8.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.29\\microsoft.netcore.app.runtime.win-x64.8.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.29\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.29\\microsoft.aspnetcore.app.runtime.win-x64.8.0.29.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.29\\microsoft.netcore.app.crossgen2.win-x64.8.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
